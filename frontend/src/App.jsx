@@ -42,6 +42,10 @@ function App() {
                     element={<RegisterAndLogout />}
                 />
                 <Route 
+                    path="/logout"
+                    element={<Logout />}
+                />
+                <Route 
                     path="*"
                     element={<NotFound />}
                 />
